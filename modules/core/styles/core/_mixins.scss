@@ -122,7 +122,7 @@
 @mixin tag-input-form-theme($theme) {
     display: inline;
     vertical-align: middle;
-
+    width: 100%;
     border: map-get($theme, 'input-border');
     padding: map-get($theme, 'input-padding');
     height: map-get($theme, 'input-height');
